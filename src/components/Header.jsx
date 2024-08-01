@@ -1,5 +1,5 @@
 import HeadLogo from "../assets/headerlogo.png";
-import Logo from "../assets/logo.png";
+// import Logo from "../assets/logo.png";
 
 
 const HeaderLogo = () => {
@@ -13,9 +13,9 @@ const HeaderLogo = () => {
             className=" h-[22px] w-[228px]"
           />
       </div>
-      <div className="pt-[40px]">
+      {/* <div className="pt-[40px]">
         <img src={Logo} alt="Logo" className="h-[48px] w-[48px] mx-auto" />
-      </div>
+      </div> */}
     </div>
   );
 };
